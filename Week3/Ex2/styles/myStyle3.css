@@ -1,0 +1,17 @@
+body {background: #cfc}
+aside{float: right; width: 10%; max-height: inherit; padding: 5px; background: #b0e0e0;}
+
+
+.menu{list-style-type: none; padding-left: 0; margin-left: 0;}
+.menu li{display: inline;}
+
+#content {position: relative; width: auto; height: auto; margin: auto}
+#mainCol { margin-left: auto;  margin-right: auto; width: 60%; background: #ffa;}
+
+/* psuedo class example */
+a:link { color: #f33; text-decoration: none;}
+a:visited {color: #674ea7; text-decoration: none;}
+a:hover {color: #690; text-decoration: underline;} 
+a:active {color: #00c; text-decoration: underline;}
+
+footer{padding:60px 0 0 0; font-size: small}

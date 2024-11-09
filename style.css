@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full {
+    width: 100%;
+    background-color: rgb(245, 239, 231);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+
+.left{
+    position: initial;
+    background-color: #00B1D2FF;
+    padding: 50px;
+}
+.right{
+    position: initial;
+    background-color: #FDDB27FF;
+    padding: 50px;
+}
+.h2{
+    margin-bottom: 30px;
+    padding: 10px;
+}

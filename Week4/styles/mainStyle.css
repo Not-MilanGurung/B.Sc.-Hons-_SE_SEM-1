@@ -1,0 +1,17 @@
+#last{
+    color: teal;
+}
+.image{
+    width: 40%;
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    color: aliceblue;
+}
+p{
+    width: 50%;
+}
+body{
+    background-color: darkblue;
+}

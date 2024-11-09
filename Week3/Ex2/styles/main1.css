@@ -1,0 +1,48 @@
+#container{
+    width:960px;
+    margin:0px auto;
+}
+
+#right-col{
+    width:260px;
+    float:left;
+    background:green;
+}
+
+#left-col{
+    width:700px;
+    float:left;
+    background:yellow;
+	font:2em "Aldrich";
+	
+}
+
+@media screen and (max-width:959px){
+    #container{
+        width:100%;
+    }
+    #right-col{
+        width:30%;
+    }
+    #left-col{
+        width:70%;
+    }
+    img{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:640px){
+    #right-col{
+        width:100%;
+    }
+    #left-col{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:320px){
+    #container{
+        width:320px;
+    }
+}
